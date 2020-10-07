@@ -1,0 +1,114 @@
+.signupbody {
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  justify-content: space-between;
+  &::before {
+    position: absolute;
+    top: 0;
+    left: 0;
+    content: "";
+    width: 100%;
+    height: 100%;
+    display: flex;
+    background-image: url(/signup.jpg);
+    background-size: cover;
+    filter: brightness(50%);
+    background-position: center;
+  }
+  * {
+    position: relative;
+  }
+  .time {
+    height: 345px;
+    width: 450px;
+    display: flex;
+    align-self: center;
+    margin-left: 2%;
+    align-self: flex-end;
+    display: flex;
+    color: white;
+    flex-direction: column;
+    h1 {
+      padding: 0;
+      margin: 0;
+      width: 100%;
+      height: fit-content;
+      justify-content: center;
+      text-align: center;
+      margin: 10px 0;
+      font-size: 10em;
+      display: flex;
+      font-weight: 400;
+    }
+    .date {
+      height: 40px;
+      width: 350px;
+      align-self: center;
+      justify-content: center;
+      display: flex;
+
+      h4 {
+        font-size: 16px;
+        margin: 10px 0;
+        font-weight: 600;
+      }
+    }
+  }
+  .signupsection {
+    height: 100%;
+    width: 498px;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    padding-top: 70px;
+    flex-direction: column;
+    .sugnuptxt {
+      width: 100%;
+      height: 50px;
+      align-items: center;
+      justify-content: center;
+      text-align: center;
+      color: white;
+      font-weight: 100;
+      font-size: larger;
+      margin: 0 0 40px 0;
+    }
+    .signup {
+      height: 581px;
+      width: 395px;
+      background-color: black;
+      align-self: center;
+      display: flex;
+      align-items: center;
+      flex-direction: column;
+      .btn {
+        width: 260px;
+        height: 45px;
+        background-color: orange;
+        color: white;
+        border-radius: 5px;
+        font-weight: 200;
+        border: none;
+        outline: none;
+        font-size: large;
+      }
+
+      input {
+        width: 95%;
+        height: 55px;
+        border-radius: 5px;
+        margin: 10px 0;
+        outline: none;
+        border: 2px white solid;
+        padding: 0 10px;
+        background-color: transparent;
+        color: white;
+      }
+      .privacytxt {
+        color: white;
+        font-size: small;
+      }
+    }
+  }
+}
